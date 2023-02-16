@@ -1,0 +1,14 @@
+#!/bin/sh
+
+javac SplitArray.java
+javac SplitArray2.java
+
+echo "SpitArray:"
+java SplitArray
+echo
+
+echo "SplitArray2:"
+java SplitArray2
+echo
+
+rm ./*.class

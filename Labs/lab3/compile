@@ -1,0 +1,5 @@
+#!/bin/sh
+
+javac BankAccount.java
+java TestBankAccount
+rm ./*.class

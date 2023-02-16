@@ -1,0 +1,19 @@
+#!/bin/sh
+
+javac LinearEquation1.java
+javac LinearEquation2.java
+javac LinearEquation3.java
+
+echo "LinearEquation1:"
+java LinearEquation1
+echo
+
+echo "LinearEquation2:"
+java LinearEquation2
+echo
+
+echo "LinearEquation3:"
+java LinearEquation3
+echo
+
+rm ./*.class

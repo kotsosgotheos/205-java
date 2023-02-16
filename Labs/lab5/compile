@@ -1,0 +1,5 @@
+#!/bin/sh
+
+javac MilesTraveller.java
+java MilesTraveller
+rm ./*.class
